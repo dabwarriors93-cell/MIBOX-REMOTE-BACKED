@@ -1,0 +1,13 @@
+services:
+  - type: web
+    name: mi-box-companion-api
+    runtime: node
+    plan: free
+    buildCommand: npm install
+    startCommand: npm start
+    healthCheckPath: /healthz
+    envVars:
+      - key: PHONE_TOKEN
+        generateValue: true
+      - key: TV_TOKEN
+        generateValue: true
