@@ -1,0 +1,10 @@
+{
+  "name": "mi-box-companion-backend",
+  "version": "1.0.0",
+  "private": true,
+  "description": "HTTPS relay for the Mi Box TV Home companion page",
+  "main": "server.js",
+  "scripts": { "start": "node server.js" },
+  "engines": { "node": ">=20" },
+  "dependencies": {}
+}
